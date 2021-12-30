@@ -1,0 +1,16 @@
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\bin\Debug\net5.0\ReviewDotNet.exe
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\bin\Debug\net5.0\ReviewDotNet.deps.json
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\bin\Debug\net5.0\ReviewDotNet.runtimeconfig.json
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\bin\Debug\net5.0\ReviewDotNet.runtimeconfig.dev.json
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\bin\Debug\net5.0\ReviewDotNet.dll
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\bin\Debug\net5.0\ref\ReviewDotNet.dll
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\bin\Debug\net5.0\ReviewDotNet.pdb
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\obj\Debug\net5.0\ReviewDotNet.csproj.AssemblyReference.cache
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\obj\Debug\net5.0\ReviewDotNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\obj\Debug\net5.0\ReviewDotNet.AssemblyInfoInputs.cache
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\obj\Debug\net5.0\ReviewDotNet.AssemblyInfo.cs
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\obj\Debug\net5.0\ReviewDotNet.csproj.CoreCompileInputs.cache
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\obj\Debug\net5.0\ReviewDotNet.dll
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\obj\Debug\net5.0\ref\ReviewDotNet.dll
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\obj\Debug\net5.0\ReviewDotNet.pdb
+D:\Estudo\Digital Inovation One\Take a Blip\workspace\ReviewDotNet\obj\Debug\net5.0\ReviewDotNet.genruntimeconfig.cache
