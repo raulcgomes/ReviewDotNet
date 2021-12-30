@@ -9,8 +9,6 @@ namespace ReviewDotNet
             Student[] students = new Student[5];
             string userOption = GetUserOption();
             var StudentIndex = 0;
-            decimal scoreSum = 0;
-            decimal scoreAvarage = 0;
 
             while (userOption.ToUpper() != "X")
             {
@@ -41,15 +39,35 @@ namespace ReviewDotNet
                         }
                         break;
                     case "3":
-                        foreach (var stud in students)
+                        decimal totalScore = 0;
+                        var studentQuantity = 0;
+
+                        for (int i = 0; i < students.Length; i++)
                         {
-                            if (!string.IsNullOrEmpty(stud.Name))
-                            {
-                                scoreSum += stud.Score;
-                            }    
+                            if (!string.IsNullOrEmpty(students[i].Name)){
+                                totalScore += students[i].Score;
+                                studentQuantity++;
+                            }
                         }
-                        scoreAvarage = scoreSum / StudentIndex;
-                        Console.WriteLine($"The general avarege is: {scoreAvarage}");
+                        
+                        var generalAvarage = totalScore / studentQuantity;
+                        EnumConcept generalConcept;
+
+                        if (generalAvarage < 2){
+                            generalConcept = EnumConcept.E;
+                        } else if (generalAvarage < 4){
+                            generalConcept = EnumConcept.D;
+                        } else if(generalAvarage < 6){
+                            generalConcept = EnumConcept.C;
+                        } else if(generalAvarage < 8){
+                            generalConcept = EnumConcept.B;
+                        } else {
+                            generalConcept = EnumConcept.A;
+                        }
+                        
+
+                        Console.WriteLine($"General avarage: {generalAvarage}, Concept: {generalConcept}");
+
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
