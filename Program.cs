@@ -9,6 +9,8 @@ namespace ReviewDotNet
             Student[] students = new Student[5];
             string userOption = GetUserOption();
             var StudentIndex = 0;
+            decimal scoreSum = 0;
+            decimal scoreAvarage = 0;
 
             while (userOption.ToUpper() != "X")
             {
@@ -39,7 +41,15 @@ namespace ReviewDotNet
                         }
                         break;
                     case "3":
-                        //TODO: General average
+                        foreach (var stud in students)
+                        {
+                            if (!string.IsNullOrEmpty(stud.Name))
+                            {
+                                scoreSum += stud.Score;
+                            }    
+                        }
+                        scoreAvarage = scoreSum / StudentIndex;
+                        Console.WriteLine($"The general avarege is: {scoreAvarage}");
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
